@@ -1,0 +1,46 @@
+:root {
+    --background-color: #F6F9FF;
+    --black-color: black;
+    --title-color: #444444;
+    --background-nav-color: #FFFFFF;
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+body.dark {
+    background-color: var(--black-color);
+}
+
+.primary-navbar{
+    background-color: var(--background-nav-color)!important;
+    box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+}
+
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 5px 30px 0 rgba(82, 63, 105, 0.2);
+}
+
+.dropdown-item {
+    font-size: 14px;
+    padding: 10px 15px;
+    transition: 0.3s;
+}
+
+.dropdown-header {
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 25px;
+}
+.dropdown-header h6 {
+    font-size: 18px;
+    margin-bottom: 0;
+    font-weight: 600;
+    color: var(--title-color);
+}
+
+.dropdown-header span {
+    font-size: 14px;
+}
